@@ -1,0 +1,73 @@
+.Logo  {
+    width: 65%;
+    height: 70px;
+}
+.Container{
+    width: 98%;
+    margin: 0 auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 100;
+  
+  
+}
+
+li{
+    list-style: none;
+    text-align: center;
+ 
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(227, 235, 238);
+}
+.tryfrofree{
+ background-color: #29abec;
+ /* margin-left: 20px; */
+ height: 40px;
+ width: 77%;
+ border-radius: 5px;
+ color: rgb(196, 201, 204);
+
+ 
+}
+.tryfrofree:hover{
+    cursor: pointer;
+    background-color: #419ecc;
+}
+.navlist2{
+    justify-content: end;
+    align-items: center;
+}
+.navlist2 ul {
+    margin-top: 2px;
+    text-align: center;
+}
+.signup{
+    background-color: #29abec;
+ margin-left: 20px;
+ border-radius: 5px;
+ color: rgb(196, 201, 204);
+ height: 30px;
+ width: 75%;
+}
+.signup:hover{
+    cursor: pointer;
+    background-color: #419ecc;
+}
+.searchbar{
+    
+    background-color:white;
+    height: 35px;
+    border-radius: 5px;
+   border: none;
+
+}
+.Container li:hover {
+    text-decoration: underline;
+}
+

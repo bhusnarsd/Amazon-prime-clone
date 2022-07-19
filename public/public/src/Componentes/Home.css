@@ -1,0 +1,142 @@
+.rowbox {
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    /* margin: 0px 0px 0px 8px; */
+    justify-content: flex-end;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(8, 8, 8);
+
+}
+
+.textcontainer {
+   margin-top: 40px;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    padding-left: 10px;
+
+}
+
+.textcontainer h1 {
+    font-size: 2.8rem;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+}
+
+.textcontainer p {
+    font-size: 24px;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-weight: 200;
+    font-family: Arial, sans-serif;
+
+
+}
+
+.textcontainer span {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+
+}
+
+.btn {
+    background-color: #0f79af;
+
+    height: 46px;
+    width: 15rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+.photocontiner img {
+    width: 100%;
+    overflow: hidden;
+   
+}
+.photocontiner2 img{
+    width: 75%;
+    overflow: hidden;
+    /* margin: 90px 60px 0px 45px; */
+    transform:translate(85px , 125px);
+}
+.photocontiner2{
+    
+    background-color: #251301;
+    background-image: linear-gradient(90deg, #251301 0%, #F7CE68 100%);  
+}
+.textcontainer2 h1{
+    line-height: 2rem;
+    font-family: Arial, sans-serif;
+    font-weight: 10;
+    font-size: 38px;
+
+}
+.textcontainer2 p{
+    font-weight: 10;
+    font-size: 18px;
+
+}
+.textcontainer2{
+    
+    align-items: center;
+    color: rgb(18, 18, 19);
+    background-color: white;
+    padding-left: 10px;
+}
+.rowbox2{
+    width: 100%;
+    background-color: white;
+}
+.photocontiner3{
+    background-color: white;
+    display: flex;
+    
+  
+    
+}
+.box{
+    width: 165px;
+    height: 120px;
+    text-align: center;
+    align-items: center;
+    background-color: #01176b;
+    background-image: linear-gradient(270deg, #01176b 0%, #19a2e9 100%);
+    margin: 5px;
+    
+    
+}
+.box p{
+    color: white;
+    font-size: 20px;
+     
+}
+.photocontainer4{
+    background-color: black;
+
+}
+.photocontainer4 img{
+    width: 100%;
+    overflow: hidden;
+}
+.textcontainer4{
+    margin-top: 40px;
+    align-items: center;
+    color: aliceblue;
+    background-color: black;
+    padding-left: 10px;
+}
+.textcontainer4 p{
+    font-weight: 5;
+    font-size: 18px;
+}
+.btn:hover{
+    cursor: pointer;
+}
